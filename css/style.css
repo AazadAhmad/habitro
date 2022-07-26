@@ -315,7 +315,7 @@ header .navbar-light .navbar-brand{
 }
 .start_pos{
   width: 170px;
-  transform: translate(290%, 400%) scale(2.5);
+  transform: translate(290%, 380%) scale(2.5);
   transition: all 1s ease;
 }
 .project-page header .navbar-light .navbar-brand {
@@ -549,7 +549,7 @@ header.sticky .navbar-light .navbar-nav .nav-link,
     /* height: 400px; */
 }
 .brand_logo_padding{
-  padding: 180px 0;
+  padding: 220px 0;
   /* background: #000; */
 }
 /* home-banner */
@@ -2015,7 +2015,7 @@ footer .footer-logo h3 span{
     }
     
     .start_pos {
-        transform: translate(210%, 400%) scale(2.5);
+        transform: translate(210%, 380%) scale(2.5);
     }
 
     body::before {
@@ -2501,10 +2501,10 @@ footer .footer-logo h3 span{
 
     .start_pos {
         width: 200px;
-        transform: translate(75%, 290%) scale(2.1);
+        transform: translate(75%, 300%) scale(2.1);
     }
     .brand_logo_padding {
-        padding: 200px 0 0 0;
+        padding: 180px 0;
         /* background: #000; */
     }
     
