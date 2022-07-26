@@ -21,21 +21,21 @@ $(window).scroll(function () {
         
     }
 
-    var t = $(".title"),
-        o = $(window);
-    o.on("load resize", function () {
-        var e = o.height(),
-            n = o.scrollTop(),
-            a = n + e;
-        $.each(t, function () {
-            var e = $(this),
-                t = e.outerHeight(),
-                o = e.offset().top + 300;
-            if (n <= o + t && o <= a) {
-                e.addClass("in_view");
-            }
-        })
-    });
+    // var t = $(".title"),
+    //     o = $(window);
+    // o.on("load resize", function () {
+    //     var e = o.height(),
+    //         n = o.scrollTop(),
+    //         a = n + e;
+    //     $.each(t, function () {
+    //         var e = $(this),
+    //             t = e.outerHeight(),
+    //             o = e.offset().top + 300;
+    //         if (n <= o + t && o <= a) {
+    //             e.addClass("in_view");
+    //         }
+    //     })
+    // });
 });
 
 
@@ -238,20 +238,20 @@ $(function () {
     }
 });
 
-
 //document ready end
 
-// Animation
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-  const smoother = ScrollSmoother.create({
-    smooth: 2,
-    effects: true,
-  // normalizeScroll: true,
-    smoothTouch: 0.2,
-  });
+// // Animation
+// gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-  Splitting();
+//   const smoother = ScrollSmoother.create({
+//     smooth: 2,
+//     effects: true,
+//   // normalizeScroll: true,
+//     smoothTouch: 0.2,
+//   });
+
+Splitting();
 
   var isInViewport = function(elem) {
     var distance = elem.getBoundingClientRect();
